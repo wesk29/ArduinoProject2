@@ -1,3 +1,6 @@
+// Arduino Project 2 - Once Upon an Arduino
+// by Wesley Kuykendall
+
 //declare LED Pins
 int LedPin1 = 9;
 int LedPin2 = 10;
@@ -11,17 +14,14 @@ int LedBrightness3 = 0;
 int LedBrightness4 = 0;
 int LedBrightness5 = 0;
 
-//Kaleb's Branch
 void setup() {
   // put your setup code here, to run once:
- 
   Serial.begin(9600);
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(11, OUTPUT);
   pinMode(12, OUTPUT);
-  pinMode(13, OUTPUT);  
-
+  pinMode(13, OUTPUT); 
 }
 
 void loop() {
