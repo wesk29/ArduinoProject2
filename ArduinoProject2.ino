@@ -1,6 +1,7 @@
 // Arduino Project 2 - Once Upon an Arduino
 // by Wesley Kuykendall + Kaleb Aziz
 
+
 //declare LED Pins
 int LedPin1 = 9;
 int LedPin2 = 10;
